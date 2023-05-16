@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ad-Hoc Report</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+</head>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <img style="margin-left: -25px" width ="250" src="images/transparent.png">
+    <h3 class="w3-padding-64"><b>YearUp Marketing<br>Strategies</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Executive Summary</a> 
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Introduction</a> 
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Discussion</a> 
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Recommendations</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Conclusions</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">References</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Appendix</a>
+
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Adhoc Report</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b></b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Executive Summary</b></h1>
+    <hr style="width:50px;border:5px solid #c58f25" class="w3-round">
+    <p style="font-size: 17px">This executive summary is dedicated to outlining marketing strategies employed by YearUp, a non-profit organization
+      that strives to empower young adults with the necessary skills to support themselves in today's job market, but also to bridging the gap between opportunity divide through providing career changing choices to those
+      who face barriers to success. YearUp should consider adopting new and improved methods of
+      marketing, which include data-driven marketing tactics, partnerships with educational institutions, peer-to-peer referral 
+      programs, and alumni engagement. By investing into these, we will create a focus on building our reach and credibility as an organization.
+    </p>
+
+    <p style="font-size: 17px">YearUp will be able to further it's reach and connect with the desired target audience through the powerful use of social media tactics and leveraging
+      the strength of each strategy to create a credible and robust network of alumni advocates to highlight the program in various aspects of marketing.
+    
+    </p>
+
+    <img style="margin-left: -17px" width="200" src="images/alumni.png"
+  </div>
+  
+  
+
+ 
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 style="margin-left: -15px" class="w3-xxxlarge w3-text-red"><b>Introduction</b></h1>
+    <hr style="width:50px;border:5px solid #c58f25" class="w3-round">
+    <p style="font-size: 17px"> This report heavily specializes on the overview of the marketing strategies employed by YearUp,
+    through extremely coordinated and thought out marketing tactics, through careful consideration of improving or adding other methods to better
+    increase the spread of YearUp. The suggestions being recommended will be displayed and highlighted through constructively well-crafted research.
+    To dive deeper and understand the context behind the information that will help YearUp grow effectively through leveraging these marketing strategies,
+    this report will give insight to possible approaches to achieve the desired goals.
+  </p>
+
+    <p style="font-size: 17px">There will be multiple recommendations to explore and cover. The first section will dig into the opportunities that lie in partnering with local
+      educational institutions that hover around the High-School, and Community College demographics. These partnerships leverage and improve our credibility
+      by attracting appropriate candidates, but also spreading our resources in reputable forums. The educational institutions are essentially a hub that signifies
+    legitimacy.   </p>
+
+    <p style="font-size: 17px"> The second recommendation dives deep into the powerful tool we call the internet. By utilizing data-driven marketing tactics in today's digital age,
+    we are able to effectively target specific demographics and measure the effectiveness of our campaigns through numbers. This could be seen as views, likes, shares, etc. 
+    With this type of information, we can optimize and better allocate our resources for stronger impact.</p>
+
+    <p style="font-size: 17px"> The third and final recommendation ties into all this. To recognize the influence of alumni engagement through all these means of marketing.
+    They are essentially the final product of what the organization has helped nurture and is the brand of the program. It is important for YearUp to 
+  maintain strong relationships to foster loyalty and to encourage them to come talk about the program. This can be displayed through advertisements on
+social media, career fairs , etc.</p>
+
+<img style="margin-left: -2px" width="900" src="images/Intern.png"
+    
+  </div>
+  
+ 
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <h1 style="margin-left: -15px" class="w3-xxxlarge w3-text-red"><b>Discussion</b></h1>
+    <hr style="width:50px;border:5px solid #c58f25" class="w3-round">
+    <p style="font-style: 17px">The key to Peer-to-Peer referral is that people trust recommendations closest to them.
+    Our data below demonstrates that a large percentage of those who hear from a family or friend are generally those they 
+  trust the most. For the most part, most people would assume a commercial is biased but hearing it from someone you recognize and trust leads to people being prone to believing their recommendations.</p>
+<ul>
+  <li><p style="font-style: 17px;">Statistics show that over <b>92%</b> of consumers are influenced by their peers while shopping.</p></li>
+
+  <li><p style="font-style: 17px;"><b>81%</b> of US consumers are influenced by what their friends share on social media.</p></li>
+</ul>
+
+<p style="font-style: 17px;">These numbers can and charts show the influence and leverage that peer recommendations has. People tend to follow trends
+  and this could be used as advantage to create incentives for people to look more into YearUp's Program.
+</p>
+
+<img style="margin-left: -2px" width="500" src="images/peer-to-peer-marketing_recommendations.png.webp" 
+  
+</div>
+
+ 
+
+  
+  <div class="w3-container" id="packages" style="margin-top:75px">
+    <h1 style="margin-left: -15px" class="w3-xxxlarge w3-text-red"><b>Recommendations</b></h1>
+    <hr style="width:50px;border:5px solid #c58f25" class="w3-round">
+    <p style="font-size: 17px">
+      Peer-to-peer referral is one of the most effective marketing skills for Yearup credibility.
+      The ways to implement are:</p>
+      
+      <ul>
+      <li><p style="font-size: 17px">
+      Incentive Structure: By developing an appealing incentive structure to motivate participants to refer others. By offering rewards such as discounts, credits, cash incentives, exclusive perks, or recognition. 
+      </p></li>
+
+      <li><p style="font-size: 17px"> Referral Tracking System: This system should assign unique referral codes or links to participants, allowing you to identify and credit them for successful referrals. This tracking system helps monitor the performance of referrers, measure the program's impact, and provide appropriate rewards.</p></li>
+
+      <li><p style="font-size: 17px">
+        Promote and Educate: Educate participants on the program's rules, eligibility criteria, and any terms and conditions.    
+      </p></li>
+
+      <li>Provide Excellent Participant Experience: Communicate with them promptly, acknowledge their efforts, and provide updates on the status of their referrals.A positive participant experience encourages ongoing engagement and increases the likelihood of continued participation and referral activity.</li>
+
+      </ul>
+    
+      <p style="font-size: 17px;">These data points will be useful in determining business choices YearUp could take as well.</p>
+    
+
+
+  </div>
+
+ 
+  
+  
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 style="margin-left: -15px" class="w3-xxxlarge w3-text-red"><b>Conclusion</b></h1>
+    <hr style="width:50px;border:5px solid #c58f25" class="w3-round">
+    <p style="font-size: 17px">
+    In conclusion, this report successfully highlights key aspects of YearUp's marketing strategies that aim to
+    empower young adults and bridge the oppourtinity divide by introducing young adults to newfound skills and resources
+    while expanding its reach and credibility. The recommendations emphasized the strong ability to read trends and apply targeted
+    advertising through data analysis proves the leverage the digital world holds. Not only this, partnering with local educational
+    institutions strengthens YearUp's credibility and gives access to strong prospective emerging professionals.
+    </p>
+  
+    <p style="font-size: 17px">
+    To add on, Alumnis are essential the core of attraction as that is what everyone aspires to be when hearing and participating
+    in the program. They can be highlighted through a multitude of marketing channels as social media, career fairs, virtual meetings 
+    and so forth.
+    </p>
+
+    <p style="font-size: 17px"> By implementing these strategies, a storm is bound to come and YearUp will significantly
+    improves its standing as a organization that shouts its mission to change young adults into profesionals.</p>
+
+    <img style="margin-align: center" width="900" src="images/YearUp.png"
+  
+
+      <div class="w3-section">
+
+       
+
+
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <div style="position:relative; right:20px">
+    <h1 style="margin-left: -13px" class="w3-xxxlarge w3-text-red"><b>References</b></h1>
+    <hr style="width:50px;border:5px solid #c58f25" class="w3-round">
+    
+    <p style="font-size: 12px:"> <b>References: Becker, N. (2023). Peer to Peer Marketing: The Complete Guide for 2023 +Examples. P2P Marketing. https://peertopeermarketing.co/peer-to-peer-marketing-guide/</b> </p>
+
+
+    <div class="w3-container" id="services" style="margin-top:75px">
+        <div style="position:relative; right:20px">
+        <h1 style="margin-left: -15px" class="w3-xxxlarge w3-text-red"><b>Appendix</b></h1>
+        <hr style="width:50px;border:5px solid #c58f25" class="w3-round">
+        
+        <img style="margin-left: -2px" width="900" src="images/logic.png">
+
+
+      </div>
+
+
+  </div>
+
+<!-- End page content -->
+</div>
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
